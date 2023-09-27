@@ -31,7 +31,7 @@ function calculateAverageGrades($grades) {
             $averageGrade = "F";
         }
 
-        echo "{$studentName} Average Grade Score: {$averageGradeScore} and Average Grade : {$averageGrade}". "</br>";
+        echo "{$studentName} Average Grade Score: {$averageGradeScore} and Average Grade : {$averageGrade}\n";
         
     }
 }
