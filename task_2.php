@@ -2,7 +2,7 @@
 
 $numbers = [1,2,3,4,5,6,7,8,9,10];
 
-function removeEvenNumbers(&$numbersArray){
+function removeEvenNumbers($numbersArray){
 
   $length= count($numbersArray);
   for($i=0; $i < $length; $i++){
@@ -16,7 +16,3 @@ function removeEvenNumbers(&$numbersArray){
 
 
 removeEvenNumbers($numbers);
-
-
-
-// print_r($numbers);
